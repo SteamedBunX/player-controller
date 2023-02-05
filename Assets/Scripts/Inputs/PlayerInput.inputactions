@@ -1,0 +1,94 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "Combat",
+            "id": "c33b003a-6213-4328-a08c-1a135e4e1917",
+            "actions": [
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "f14ef7f6-46fe-4fce-8213-7a6459ace52f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "fe3a109f-672a-47fc-a9de-024d510ba7b5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "JumpInput",
+                    "type": "Button",
+                    "id": "9b1b21de-db94-4f7a-b3c1-52f0e9ee520b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "892eb6cb-24f0-44a3-8b96-8c3c4b91790e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cd850bd3-47a5-4812-8f12-bb141513d28e",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "62c09d9f-9f02-4973-ab80-ef7e43c6e821",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "02dbf375-c17f-4f4a-8e3e-b3c121305cb5",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "JumpInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "854e2ec1-79ce-4d84-abbd-99ac50ef9db7",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
